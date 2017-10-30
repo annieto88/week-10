@@ -1,3 +1,7 @@
+var Twitter = require('twitter');
+var Spotify = require('node-spotify-api');
+var request = require('request');
+
 console.log('this is loaded');
 
 var twitterKeys = {
@@ -7,4 +11,10 @@ var twitterKeys = {
   access_token_secret: 'bWcW8ZNUxpi4c3g7DuvErj6LtvsUgb9gGQ5yD1AcEgzrC',
 }
 
+var clientSpotify = Spotify({
+	id: 'd5b8a70b03204a6f9909f84c9c337f4f',
+	secret: '9cda41ccd56047b8b220b1270b3de7ce',
+});
+
 module.exports = twitterKeys;
+module.exports = clientSpotify;
