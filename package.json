@@ -1,9 +1,27 @@
 {
-	"name": "week-10",
-	"version": "1.0.0",
-	"description": "",
-	"repository": {
-		"type":"git",
-		"url":"git.https://github.com/annieto88/week-10.git"
-	},
+  "name": "week-10",
+  "version": "1.0.0",
+  "description": "Instructions     On bash terminal, enter 'node liri.js' and a set of commands.     Command options are 'my-tweets','movie-this','spotify-this-song', and 'do what it says' Technologies used      javascript     node.js     NPM Request     NPM FS     NPM Twitter     NPM OMDB     NPM Spotify",
+  "main": "javascript.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "hapi": "^16.6.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annieto88/week-10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annieto88/week-10/issues"
+  },
+  "homepage": "https://github.com/annieto88/week-10#readme"
 }
